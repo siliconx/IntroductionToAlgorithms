@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define N 1000000
+#define N 99999
 
 int insert_sort(int[], int);
 int output(int[], int);
@@ -7,10 +7,10 @@ int output(int[], int);
 int main(void) {
     int array[N];
     printf("original array:\n");
-    output(array, N);
+    // output(array, N);
     insert_sort(array, N);
     printf("sorted array:\n");
-    output(array, N);
+    // output(array, N);
     return 0;
 }
 

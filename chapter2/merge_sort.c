@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define N 101
+#define N 99999
 
 int merge_sort(int[], int, int);
 int merge(int[], int, int, int);
@@ -7,9 +7,10 @@ int output(int[], int);
 
 int main(void) {
     int array[N];
-    output(array, N);
+    // output(array, N);
+    printf("sorting...\n");
     merge_sort(array, 0, N - 1);
-    output(array, N);
+    // output(array, N);
     return 0;
 }
 
