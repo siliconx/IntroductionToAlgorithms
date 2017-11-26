@@ -26,7 +26,7 @@ int quick_sort(int a[], int p, int r) {
     return 0;
 }
 
-int partition(int a[], int p, int r) {  // most important function
+int partition(int a[], int p, int r) {  // the most important function
     int pivot = a[r];
     int i = p - 1;
     for (int j = p; j < r; ++j) {
